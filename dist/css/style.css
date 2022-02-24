@@ -20,7 +20,6 @@
 
 body {
   background-color: #dabfbf;
-  background: url("../images/ok.png");
 }
 body h1 {
   font-family: Roboto;
@@ -30,7 +29,7 @@ body h1 {
 }
 
 .img {
-  width: 400px;
-  height: 400px;
+  width: 60px;
+  height: 60px;
   object-fit: cover;
 }

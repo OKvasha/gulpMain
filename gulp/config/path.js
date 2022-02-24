@@ -18,14 +18,14 @@ export const path = {
     js: `${srcFolder}/js/app.js`,
     images: `${srcFolder}/images/**/*.{jpg,jpeg,png,gif,webp}`,
     svg: `${srcFolder}/images/**/*.svg`,
-    scss: `${srcFolder}/scss/style.scss`,
+    scss: `${srcFolder}/sass/style.sass`,
     html: `${srcFolder}/*.html`,
     files: `${srcFolder}/files/**/*.*`,
     svgicons: `${srcFolder}/svgicons/*.svg`,
   },
   watch: {
     js: `${srcFolder}/js/**/*.js`,
-    scss: `${srcFolder}/scss/**/*.scss`,
+    scss: `${srcFolder}/sass/**/*.sass`,
     html: `${srcFolder}/**/*.html`,
     images: `${srcFolder}/**/*.{jpg,jpeg,png,svg,gif,webp,ico}`,
     files: `${srcFolder}/files/**/*.*`
